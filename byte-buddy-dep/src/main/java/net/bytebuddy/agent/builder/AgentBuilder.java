@@ -1681,7 +1681,7 @@ public interface AgentBuilder {
              *
              * @param matcher The matchers to apply in their application order.
              */
-            protected Disjunction(RawMatcher... matcher) {
+            public Disjunction(RawMatcher... matcher) {
                 this(Arrays.asList(matcher));
             }
 
